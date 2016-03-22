@@ -1,0 +1,638 @@
+<?xml version="1.0"?><DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts" DTS:ExecutableType="SSIS.Package.2">
+<DTS:Property DTS:Name="PackageFormatVersion">3</DTS:Property>
+<DTS:Property DTS:Name="VersionComments"></DTS:Property>
+<DTS:Property DTS:Name="CreatorName">FIRCROFT\Kshah</DTS:Property>
+<DTS:Property DTS:Name="CreatorComputerName">FIR-BIR-DEV01</DTS:Property>
+<DTS:Property DTS:Name="CreationDate" DTS:DataType="7">10/12/2015 5:37:58 PM</DTS:Property>
+<DTS:Property DTS:Name="PackageType">5</DTS:Property>
+<DTS:Property DTS:Name="ProtectionLevel">1</DTS:Property>
+<DTS:Property DTS:Name="MaxConcurrentExecutables">-1</DTS:Property>
+<DTS:Property DTS:Name="PackagePriorityClass">0</DTS:Property>
+<DTS:Property DTS:Name="VersionMajor">1</DTS:Property>
+<DTS:Property DTS:Name="VersionMinor">0</DTS:Property>
+<DTS:Property DTS:Name="VersionBuild">4</DTS:Property>
+<DTS:Property DTS:Name="VersionGUID">{9A602250-B3D4-4AAC-82D4-F1DFE4AAD16F}</DTS:Property>
+<DTS:Property DTS:Name="EnableConfig">0</DTS:Property>
+<DTS:Property DTS:Name="CheckpointFileName"></DTS:Property>
+<DTS:Property DTS:Name="SaveCheckpoints">0</DTS:Property>
+<DTS:Property DTS:Name="CheckpointUsage">0</DTS:Property>
+<DTS:Property DTS:Name="SuppressConfigurationWarnings">0</DTS:Property>
+<DTS:ConnectionManager>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Cleansed Vendors</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{C56CBEEE-93B7-4528-9A2B-B17BB9147214}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName">FLATFILE</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
+<DTS:Property DTS:Name="FileUsageType">0</DTS:Property>
+<DTS:Property DTS:Name="Format">Delimited</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">2057</DTS:Property>
+<DTS:Property DTS:Name="Unicode">0</DTS:Property>
+<DTS:Property DTS:Name="HeaderRowsToSkip">0</DTS:Property>
+<DTS:Property DTS:Name="HeaderRowDelimiter" xml:space="preserve">_x000D__x000A_</DTS:Property>
+<DTS:Property DTS:Name="ColumnNamesInFirstDataRow">-1</DTS:Property>
+<DTS:Property DTS:Name="RowDelimiter" xml:space="preserve"></DTS:Property>
+<DTS:Property DTS:Name="DataRowsToSkip">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualifier" xml:space="preserve">_x0022_</DTS:Property>
+<DTS:Property DTS:Name="CodePage">1252</DTS:Property>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Legalentity</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{C5AA70E9-385B-4278-96BF-6DA93F432D0D}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Accountno</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{AEBE32A3-9DAA-4157-82B1-D08BAFF9412F}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Name</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{2130D6A7-1E7F-4924-9998-E8F61EA2187B}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Sortorder</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{BBF1B052-E473-4A59-BBA6-EDEEF59BE0EB}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Purpose</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{C7AD58B9-2338-4D9F-B39F-4C359D3B7904}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Isprimary</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{B15D50F7-9CE7-4B5F-A4B6-2809C93F6F92}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Firstname</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{6D114539-B994-4FAA-883C-AF3FB470EAE0}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Lastname</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{23FA2C56-AB7D-4704-8886-DC4BE35FBA58}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Street 1</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{BC88F481-0537-4638-9ED5-8D58A8B93993}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Street 2</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{07BBD55F-413D-4C3A-990D-214A4D7DD9FB}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Street 3</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{FFD06A8E-190C-4C08-B4DE-DE11DBDE8201}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">City</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{D122C431-E385-4C4F-98FA-5CA409F1BE22}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">State</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{8645ABE9-B5DC-441E-8312-5939A297654A}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Postcode</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{23DDE3CD-F89E-4017-B429-4E86BBB3AD2C}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Country Region</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{61355ABD-E953-47A7-BD6A-DB54E8551F16}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Communicationtype</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{1A2DEE71-70E2-4865-946F-F24EF6B15D39}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Communicationvalue</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{551D7393-7BED-46C8-828E-D5A3FAE373D2}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Terms Of Payment</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{7677AA78-3BC6-4A8F-86EC-01BAFECD5CF4}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Currency</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{BB37AD9A-ECB9-4E32-AF84-482ED5B74A08}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
+<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x000D__x000A_</DTS:Property>
+<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
+<DTS:Property DTS:Name="MaximumWidth">50</DTS:Property>
+<DTS:Property DTS:Name="DataType">129</DTS:Property>
+<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
+<DTS:Property DTS:Name="DataScale">0</DTS:Property>
+<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Method Of Payment</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{D73450DE-79E1-42A3-8147-C7CCC820C298}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
+<DTS:Property DTS:Name="ConnectionString">C:\Users\Kshah\Desktop\Vendor US101.csv</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:ConnectionManager>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Excel Connection Manager</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{2711147F-6A77-4130-8150-7E47CE307DC0}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName">EXCEL</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
+<DTS:Property DTS:Name="Retain">0</DTS:Property>
+<DTS:Property DTS:Name="ConnectionString">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Kshah\Desktop\Vendor US101.xlsx;Extended Properties="EXCEL 12.0 XML;HDR=YES";</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:ConnectionManager>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">FIR-SQLCLST-SRV\SERVICES.AXStagingTables</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{F04A7EB7-9403-481F-87F2-366BAB31F6AA}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName">OLEDB</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
+<DTS:Property DTS:Name="Retain">0</DTS:Property>
+<DTS:Property DTS:Name="ConnectionString">Data Source=FIR-SQL-01\TEST;Initial Catalog=AXStagingTables;Provider=SQLNCLI10.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{F04A7EB7-9403-481F-87F2-366BAB31F6AA}FIR-SQLCLST-SRV\SERVICES.AXStagingTables;</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:Property DTS:Name="LastModifiedProductVersion">10.0.5500.0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">2057</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Executable DTS:ExecutableType="SSIS.Pipeline.2">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server v10; (C) 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">Data Flow Task</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{E9D8F70C-27C3-4016-BAAF-F4875C8D2257}</DTS:Property>
+<DTS:Property DTS:Name="Description">Data Flow Task</DTS:Property>
+<DTS:Property DTS:Name="CreationName">SSIS.Pipeline.2</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><pipeline id="0" name="pipelineXml" description="pipelineXml" defaultBufferMaxRows="10000" engineThreads="10" defaultBufferSize="10485760" BLOBTempStoragePath="" bufferTempStoragePath="" runInOptimizedMode="true">
+<components>
+<component id="264" name="Flat File Source" componentClassID="{5ACD952A-F16A-41D8-A681-713640837664}" description="Flat File Source" localeId="2057" usesDispositions="true" validateExternalMetadata="True" version="1" pipelineVersion="0" contactInfo="Flat File Source;Microsoft Corporation; Microsoft SqlServer v10; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1">
+<properties>
+<property id="270" name="RetainNulls" dataType="System.Boolean" state="default" isArray="false" description="Specifies whether zero-length columns are treated as null." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="271" name="FileNameColumnName" dataType="System.String" state="default" isArray="false" description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property></properties>
+<connections>
+<connection id="269" name="FlatFileConnection" description="" connectionManagerID="{C56CBEEE-93B7-4528-9A2B-B17BB9147214}"/></connections>
+<outputs>
+<output id="265" name="Flat File Source Output" description="" exclusionGroup="0" synchronousInputId="0" deleteOutputOnPathDetached="false" hasSideEffects="false" dangling="false" isErrorOut="false" isSorted="false" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed"><outputColumns>
+<outputColumn id="273" name="Legalentity" description="" lineageId="273" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="272" mappedColumnId="0"><properties>
+<property id="274" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="275" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn>
+<outputColumn id="277" name="Accountno" description="" lineageId="277" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="276" mappedColumnId="0"><properties>
+<property id="278" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="279" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn>
+<outputColumn id="281" name="Name" description="" lineageId="281" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="280" mappedColumnId="0"><properties>
+<property id="282" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="283" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn>
+<outputColumn id="285" name="Sortorder" description="" lineageId="285" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="284" mappedColumnId="0"><properties>
+<property id="286" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="287" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn>
+<outputColumn id="289" name="Purpose" description="" lineageId="289" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="288" mappedColumnId="0"><properties>
+<property id="290" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="291" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn>
+<outputColumn id="293" name="Isprimary" description="" lineageId="293" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="292" mappedColumnId="0"><properties>
+<property id="294" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="295" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn>
+<outputColumn id="297" name="Firstname" description="" lineageId="297" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="296" mappedColumnId="0"><properties>
+<property id="298" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="299" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn>
+<outputColumn id="301" name="Lastname" description="" lineageId="301" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="300" mappedColumnId="0"><properties>
+<property id="302" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="303" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn>
+<outputColumn id="305" name="Street 1" description="" lineageId="305" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="304" mappedColumnId="0"><properties>
+<property id="306" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="307" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn>
+<outputColumn id="309" name="Street 2" description="" lineageId="309" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="308" mappedColumnId="0"><properties>
+<property id="310" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="311" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn>
+<outputColumn id="313" name="Street 3" description="" lineageId="313" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="312" mappedColumnId="0"><properties>
+<property id="314" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="315" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn>
+<outputColumn id="317" name="City" description="" lineageId="317" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="316" mappedColumnId="0"><properties>
+<property id="318" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="319" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn>
+<outputColumn id="321" name="State" description="" lineageId="321" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="320" mappedColumnId="0"><properties>
+<property id="322" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="323" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn>
+<outputColumn id="325" name="Postcode" description="" lineageId="325" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="324" mappedColumnId="0"><properties>
+<property id="326" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="327" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn>
+<outputColumn id="329" name="Country Region" description="" lineageId="329" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="328" mappedColumnId="0"><properties>
+<property id="330" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="331" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn>
+<outputColumn id="333" name="Communicationtype" description="" lineageId="333" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="332" mappedColumnId="0"><properties>
+<property id="334" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="335" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn>
+<outputColumn id="337" name="Communicationvalue" description="" lineageId="337" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="336" mappedColumnId="0"><properties>
+<property id="338" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="339" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn>
+<outputColumn id="341" name="Terms Of Payment" description="" lineageId="341" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="340" mappedColumnId="0"><properties>
+<property id="342" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="343" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn>
+<outputColumn id="345" name="Currency" description="" lineageId="345" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="344" mappedColumnId="0"><properties>
+<property id="346" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="347" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn>
+<outputColumn id="349" name="Method Of Payment" description="" lineageId="349" precision="0" scale="0" length="50" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="348" mappedColumnId="0"><properties>
+<property id="350" name="FastParse" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the column uses the faster, locale-neutral parsing routines." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="351" name="UseBinaryFormat" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the data is in binary format." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property></properties></outputColumn></outputColumns><externalMetadataColumns isUsed="True">
+<externalMetadataColumn id="272" name="Legalentity" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="276" name="Accountno" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="280" name="Name" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="284" name="Sortorder" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="288" name="Purpose" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="292" name="Isprimary" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="296" name="Firstname" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="300" name="Lastname" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="304" name="Street 1" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="308" name="Street 2" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="312" name="Street 3" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="316" name="City" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="320" name="State" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="324" name="Postcode" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="328" name="Country Region" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="332" name="Communicationtype" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="336" name="Communicationvalue" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="340" name="Terms Of Payment" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="344" name="Currency" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="348" name="Method Of Payment" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/></externalMetadataColumns></output>
+<output id="266" name="Flat File Source Error Output" description="" exclusionGroup="0" synchronousInputId="0" deleteOutputOnPathDetached="false" hasSideEffects="false" dangling="false" isErrorOut="true" isSorted="false" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed"><outputColumns>
+<outputColumn id="352" name="Flat File Source Error Output Column" description="Flat File Source Error Output Column" lineageId="352" precision="0" scale="0" length="0" dataType="text" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
+<outputColumn id="267" name="ErrorCode" description="" lineageId="267" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="1" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
+<outputColumn id="268" name="ErrorColumn" description="" lineageId="268" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="2" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/></outputColumns><externalMetadataColumns isUsed="False"/></output>
+</outputs>
+</component>
+<component id="353" name="Load_US_Vendors_Cleansed" componentClassID="{5A0B62E8-D91D-49F5-94A5-7BE58DE508F0}" description="OLE DB Destination" localeId="-1" usesDispositions="true" validateExternalMetadata="True" version="4" pipelineVersion="0" contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SqlServer v10; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4">
+<properties>
+<property id="354" name="CommandTimeout" dataType="System.Int32" state="default" isArray="false" description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">0</property>
+<property id="355" name="OpenRowset" dataType="System.String" state="default" isArray="false" description="Specifies the name of the database object used to open a rowset." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">[Load_US_Vendors_Cleansed]</property>
+<property id="356" name="OpenRowsetVariable" dataType="System.String" state="default" isArray="false" description="Specifies the variable that contains the name of the database object used to open a rowset." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property>
+<property id="357" name="SqlCommand" dataType="System.String" state="default" isArray="false" description="The SQL command to be executed." typeConverter="" UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" containsID="false" expressionType="None"></property>
+<property id="358" name="DefaultCodePage" dataType="System.Int32" state="default" isArray="false" description="Specifies the column code page to use when code page information is unavailable from the data source." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">1252</property>
+<property id="359" name="AlwaysUseDefaultCodePage" dataType="System.Boolean" state="default" isArray="false" description="Forces the use of the DefaultCodePage property value when describing character data." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="360" name="AccessMode" dataType="System.Int32" state="default" isArray="false" description="Specifies the mode used to access the database." typeConverter="AccessMode" UITypeEditor="" containsID="false" expressionType="None">3</property>
+<property id="362" name="FastLoadKeepIdentity" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="363" name="FastLoadKeepNulls" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="364" name="FastLoadOptions" dataType="System.String" state="default" isArray="false" description="Specifies options to be used with fast load.  Applies only if fast load is turned on." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">TABLOCK,CHECK_CONSTRAINTS</property>
+<property id="365" name="FastLoadMaxInsertCommitSize" dataType="System.Int32" state="default" isArray="false" description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">2147483647</property></properties>
+<connections>
+<connection id="361" name="OleDbConnection" description="The OLE DB runtime connection used to access the database." connectionManagerID="{F04A7EB7-9403-481F-87F2-366BAB31F6AA}"/></connections>
+<inputs>
+<input id="366" name="OLE DB Destination Input" description="" hasSideEffects="true" dangling="false" errorOrTruncationOperation="Insert" errorRowDisposition="FailComponent" truncationRowDisposition="NotUsed"><inputColumns>
+<inputColumn id="391" name="" description="" lineageId="273" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="371" mappedColumnId="0"/>
+<inputColumn id="392" name="" description="" lineageId="277" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="372" mappedColumnId="0"/>
+<inputColumn id="393" name="" description="" lineageId="281" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="373" mappedColumnId="0"/>
+<inputColumn id="394" name="" description="" lineageId="285" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="374" mappedColumnId="0"/>
+<inputColumn id="395" name="" description="" lineageId="289" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="375" mappedColumnId="0"/>
+<inputColumn id="396" name="" description="" lineageId="293" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="376" mappedColumnId="0"/>
+<inputColumn id="397" name="" description="" lineageId="297" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="377" mappedColumnId="0"/>
+<inputColumn id="398" name="" description="" lineageId="301" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="378" mappedColumnId="0"/>
+<inputColumn id="399" name="" description="" lineageId="305" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="379" mappedColumnId="0"/>
+<inputColumn id="400" name="" description="" lineageId="309" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="380" mappedColumnId="0"/>
+<inputColumn id="401" name="" description="" lineageId="313" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="381" mappedColumnId="0"/>
+<inputColumn id="402" name="" description="" lineageId="317" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="382" mappedColumnId="0"/>
+<inputColumn id="403" name="" description="" lineageId="321" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="383" mappedColumnId="0"/>
+<inputColumn id="404" name="" description="" lineageId="325" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="384" mappedColumnId="0"/>
+<inputColumn id="405" name="" description="" lineageId="329" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="385" mappedColumnId="0"/>
+<inputColumn id="406" name="" description="" lineageId="333" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="386" mappedColumnId="0"/>
+<inputColumn id="407" name="" description="" lineageId="337" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="387" mappedColumnId="0"/>
+<inputColumn id="408" name="" description="" lineageId="341" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="388" mappedColumnId="0"/>
+<inputColumn id="409" name="" description="" lineageId="345" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="389" mappedColumnId="0"/>
+<inputColumn id="410" name="" description="" lineageId="349" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="390" mappedColumnId="0"/>
+</inputColumns><externalMetadataColumns isUsed="True">
+<externalMetadataColumn id="371" name="Legalentity" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="372" name="Accountno" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="373" name="Name" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="374" name="Sortorder" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="375" name="Purpose" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="376" name="Isprimary" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="377" name="Firstname" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="378" name="Lastname" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="379" name="Street 1" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="380" name="Street 2" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="381" name="Street 3" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="382" name="City" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="383" name="State" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="384" name="Postcode" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="385" name="Country Region" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="386" name="Communicationtype" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="387" name="Communicationvalue" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="388" name="Terms Of Payment" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="389" name="Currency" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/>
+<externalMetadataColumn id="390" name="Method Of Payment" description="" precision="0" scale="0" length="50" dataType="str" codePage="1252" mappedColumnId="0"/></externalMetadataColumns></input>
+</inputs>
+<outputs>
+<output id="367" name="OLE DB Destination Error Output" description="" exclusionGroup="1" synchronousInputId="366" deleteOutputOnPathDetached="false" hasSideEffects="false" dangling="false" isErrorOut="true" isSorted="false" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed"><outputColumns>
+<outputColumn id="368" name="ErrorCode" description="" lineageId="368" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="1" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
+<outputColumn id="369" name="ErrorColumn" description="" lineageId="369" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="2" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/></outputColumns><externalMetadataColumns isUsed="False"/></output>
+</outputs>
+</component>
+</components>
+<paths>
+<path id="370" name="Flat File Source Output" description="" startId="265" endId="366"/>
+</paths></pipeline></DTS:ObjectData></DTS:Executable>
+<DTS:Property DTS:Name="ObjectName">LSVendorLoadCleaned</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{72F0AC60-E2E9-4CFB-A8FB-DDA723F86C96}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName">SSIS.Package.2</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property>
+<DTS:PackageVariable>
+<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;Package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsControlFlowDiagram&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
+  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="5" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="0" scrolltop="0" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="20743" y="12197" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
+    &lt;font&gt;
+      &lt;ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" /&gt;
+    &lt;/font&gt;
+    &lt;mouseicon&gt;
+      &lt;ddsxmlobjectstreamwrapper binary="6c74000000000000" /&gt;
+    &lt;/mouseicon&gt;
+  &lt;/diagram&gt;
+  &lt;layoutmanager&gt;
+    &lt;ddsxmlobj /&gt;
+  &lt;/layoutmanager&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Data Flow Task" left="0" top="4419" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobjectstreaminitwrapper binary="000800000e0e00008c040000" /&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{E9D8F70C-27C3-4016-BAAF-F4875C8D2257}" vartype="8" /&gt;
+        &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;shape groupshapeid="0" groupnode="0" /&gt;
+  &lt;/ddscontrol&gt;
+&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
+<DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">{72F0AC60-E2E9-4CFB-A8FB-DDA723F86C96}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{BC9C799C-FCEF-4D0B-9DF6-6AC703599420}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
+<DTS:PackageVariable>
+<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;TaskHost xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsDataFlowDiagram&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
+  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="19" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="0" scrolltop="0" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="36089" y="17859" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="0" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
+    &lt;font&gt;
+      &lt;ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" /&gt;
+    &lt;/font&gt;
+    &lt;mouseicon&gt;&lt;ddsxmlobjectstreamwrapper binary="6c74000000000000" /&gt;
+    &lt;/mouseicon&gt;
+  &lt;/diagram&gt;
+  &lt;layoutmanager&gt;&lt;ddsxmlobj /&gt;
+  &lt;/layoutmanager&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Flat File Source" left="8361" top="4366" logicalid="14" controlid="14" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;&lt;control&gt;&lt;ddsxmlobjectstreaminitwrapper binary="000800000e0e00008c040000" /&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;&lt;ddsxmlobj&gt;&lt;property name="LogicalObject" value="{E9D8F70C-27C3-4016-BAAF-F4875C8D2257}/components/264" vartype="8" /&gt;
+        &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;shape groupshapeid="0" groupnode="0" /&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="OLE DB Destination" left="15928" top="11139" logicalid="15" controlid="15" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;&lt;control&gt;&lt;ddsxmlobjectstreaminitwrapper binary="000800000e0e00008c040000" /&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;&lt;ddsxmlobj&gt;&lt;property name="LogicalObject" value="{E9D8F70C-27C3-4016-BAAF-F4875C8D2257}/components/353" vartype="8" /&gt;
+        &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;shape groupshapeid="0" groupnode="0" /&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="9761" top="5131" logicalid="16" controlid="16" masterid="0" hint1="0" hint2="0" width="8366" height="6508" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;&lt;control&gt;&lt;ddsxmlobj&gt;&lt;polyline endtypedst="3" endtypesrc="1" usercolor="32768" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;&lt;ddsxmlobj&gt;&lt;property name="LogicalObject" value="{E9D8F70C-27C3-4016-BAAF-F4875C8D2257}/paths/370" vartype="8" /&gt;
+        &lt;property name="Virtual" value="0" vartype="11" /&gt;
+        &lt;property name="VisibleAP" value="0" vartype="3" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;connector lineroutestyle="Microsoft.DataWarehouse.Layout.GraphLayout100" sourceid="14" destid="15" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="2" relatedid="0" virtual="0"&gt;&lt;point x="10160" y="5530" /&gt;
+      &lt;point x="10160" y="8334" /&gt;
+      &lt;point x="17727" y="8334" /&gt;
+      &lt;point x="17727" y="11139" /&gt;
+    &lt;/connector&gt;
+  &lt;/ddscontrol&gt;
+&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;/dwd:DtsDataFlowDiagram&gt;&lt;dwd:DtsComponentDesignerPropertiesList&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;353	TableInfoObjectType&lt;/dwd:key&gt;&lt;dwd:value xsi:type="xsd:string"&gt;Table&lt;/dwd:value&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;115	TableInfoObjectType&lt;/dwd:key&gt;&lt;dwd:value xsi:type="xsd:string"&gt;Table&lt;/dwd:value&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;115	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;24	TableInfoObjectType&lt;/dwd:key&gt;&lt;dwd:value xsi:type="xsd:string"&gt;Table&lt;/dwd:value&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;173	TableInfoObjectType&lt;/dwd:key&gt;&lt;dwd:value xsi:type="xsd:string"&gt;Table&lt;/dwd:value&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;353	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;173	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;24	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;/dwd:DtsComponentDesignerPropertiesList&gt;&lt;/TaskHost&gt;</DTS:Property>
+<DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">{E9D8F70C-27C3-4016-BAAF-F4875C8D2257}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{142CC8AA-3BF9-49F0-9AF2-10A68AFBD367}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
+<DTS:PackageVariable>
+<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:SourceName&gt;Flat File Source Output&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;OLE DB Destination Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
+<DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">{E9D8F70C-27C3-4016-BAAF-F4875C8D2257}-370</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{24B1C36F-FFC3-4F88-9ABB-EF0E5408C16F}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
+<DTS:PackageVariable>
+<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;Package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsControlFlowDiagram&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
+  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="5" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="0" scrolltop="0" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="20743" y="12197" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
+    &lt;font&gt;
+      &lt;ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" /&gt;
+    &lt;/font&gt;
+    &lt;mouseicon&gt;
+      &lt;ddsxmlobjectstreamwrapper binary="6c74000000000000" /&gt;
+    &lt;/mouseicon&gt;
+  &lt;/diagram&gt;
+  &lt;layoutmanager&gt;
+    &lt;ddsxmlobj /&gt;
+  &lt;/layoutmanager&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Data Flow Task" left="0" top="4419" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobjectstreaminitwrapper binary="000800000e0e00008c040000" /&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{E9D8F70C-27C3-4016-BAAF-F4875C8D2257}" vartype="8" /&gt;
+        &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;shape groupshapeid="0" groupnode="0" /&gt;
+  &lt;/ddscontrol&gt;
+&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
+<DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">package-diagram</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{8DA89A2E-A531-4904-9B47-5A03ECB121C2}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable></DTS:Executable>

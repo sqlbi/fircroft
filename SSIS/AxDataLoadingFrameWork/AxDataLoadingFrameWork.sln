@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{D183A3D8-5FD8-494B-B014-37F57B35E655}") = "AxDataLoadingFrameWork-test", "AxDataLoadingFrameWork\AxDataLoadingFrameWork-test.dtproj", "{CDDDD114-41D0-438B-B265-A5D41E16D8BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDDDD114-41D0-438B-B265-A5D41E16D8BA}.Development|Default.ActiveCfg = Development
+		{CDDDD114-41D0-438B-B265-A5D41E16D8BA}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

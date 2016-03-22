@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProductVersion>10.0.5500.0</ProductVersion>
+  <SchemaVersion>9.0.1.0</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>AxDataLoadingFrameWork.database</Name>
+    <FullPath>AxDataLoadingFrameWork.database</FullPath>
+  </Database>
+  <Cubes />
+  <Dimensions />
+  <DataSources />
+  <DataSourceViews />
+  <MiningModels />
+  <Roles />
+  <Miscellaneous />
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <OutputPath>bin</OutputPath>
+        <ConnectionMappings />
+        <ConnectionProviderMappings />
+        <ConnectionSecurityMappings />
+        <DatabaseStorageLocations />
+      </Options>
+    </Configuration>
+  </Configurations>
+  <DTSPackages>
+    <DtsPackage FormatVersion="3">
+      <Name>_Master.dtsx</Name>
+      <FullPath>_Master.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>00_Load_Customer_Project_SS.dtsx</Name>
+      <FullPath>00_Load_Customer_Project_SS.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>01_SS_Load_CustomerMaster.dtsx</Name>
+      <FullPath>01_SS_Load_CustomerMaster.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>02_LoadStgAX_GABMaster.dtsx</Name>
+      <FullPath>02_LoadStgAX_GABMaster.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>03_LoadStgAX_GAB EntityMasterTables.dtsx</Name>
+      <FullPath>03_LoadStgAX_GAB EntityMasterTables.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>04_LoadStgAX_GABContacts.dtsx</Name>
+      <FullPath>04_LoadStgAX_GABContacts.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>05_LoadStgAX_GABAddress.dtsx</Name>
+      <FullPath>05_LoadStgAX_GABAddress.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>051_LoadStgAX_Project_SubProject.dtsx</Name>
+      <FullPath>051_LoadStgAX_Project_SubProject.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>06_LoadGAB.dtsx</Name>
+      <FullPath>06_LoadGAB.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>07_LoadAX_GAB EntityMasterTables.dtsx</Name>
+      <FullPath>07_LoadAX_GAB EntityMasterTables.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>08_LoadAX_GABContacts.dtsx</Name>
+      <FullPath>08_LoadAX_GABContacts.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>09_LoadAX_GABAddress.dtsx</Name>
+      <FullPath>09_LoadAX_GABAddress.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>10_Load_StgAX_tmpl_APOpenInvoices.dtsx</Name>
+      <FullPath>10_Load_StgAX_tmpl_APOpenInvoices.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>11_Load_StgAX_tmpl_AROpenInvoices.dtsx</Name>
+      <FullPath>11_Load_StgAX_tmpl_AROpenInvoices.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>12_Load_StgAX_tmpl_GLOpenBalances.dtsx</Name>
+      <FullPath>12_Load_StgAX_tmpl_GLOpenBalances.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>13_Load_AX_tmpl_APOpenInvoices.dtsx</Name>
+      <FullPath>13_Load_AX_tmpl_APOpenInvoices.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>14_Load_AX_tmpl_AROpenInvoices.dtsx</Name>
+      <FullPath>14_Load_AX_tmpl_AROpenInvoices.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>15_Load_AX_tmpl_GLOpenBalance.dtsx</Name>
+      <FullPath>15_Load_AX_tmpl_GLOpenBalance.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>GenerateCSVFiles.dtsx</Name>
+      <FullPath>GenerateCSVFiles.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Load_AX_tmpl_ProjectLineProperties.dtsx</Name>
+      <FullPath>Load_AX_tmpl_ProjectLineProperties.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Load_AX_tmpl_ProjectRateExpenseCostPrice.dtsx</Name>
+      <FullPath>Load_AX_tmpl_ProjectRateExpenseCostPrice.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Load_AX_tmpl_ProjectRateExpenseSalesPrice.dtsx</Name>
+      <FullPath>Load_AX_tmpl_ProjectRateExpenseSalesPrice.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Load_AX_tmpl_ProjectRateHourCostPrice.dtsx</Name>
+      <FullPath>Load_AX_tmpl_ProjectRateHourCostPrice.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Load_AX_tmpl_ProjectRateHourSalesPrice.dtsx</Name>
+      <FullPath>Load_AX_tmpl_ProjectRateHourSalesPrice.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Load_StgAX_tmpl_ProjectLineProperties.dtsx</Name>
+      <FullPath>Load_StgAX_tmpl_ProjectLineProperties.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Load_StgAX_tmpl_ProjectRateExpenseCostPrice.dtsx</Name>
+      <FullPath>Load_StgAX_tmpl_ProjectRateExpenseCostPrice.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Load_StgAX_tmpl_ProjectRateExpenseSalesPrice.dtsx</Name>
+      <FullPath>Load_StgAX_tmpl_ProjectRateExpenseSalesPrice.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Load_StgAX_tmpl_ProjectRateHourCostPrice.dtsx</Name>
+      <FullPath>Load_StgAX_tmpl_ProjectRateHourCostPrice.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Load_StgAX_tmpl_ProjectRateHourSalesPrice.dtsx</Name>
+      <FullPath>Load_StgAX_tmpl_ProjectRateHourSalesPrice.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadAX_Employment.dtsx</Name>
+      <FullPath>LoadAX_Employment.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadAX_tmpl_ProjectMasterHeader.dtsx</Name>
+      <FullPath>LoadAX_tmpl_ProjectMasterHeader.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadStgAX_Employment.dtsx</Name>
+      <FullPath>LoadStgAX_Employment.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LSVendorLoadCleaned.dtsx</Name>
+      <FullPath>LSVendorLoadCleaned.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Redundant_10_Load_StgAX_tmpl_APOpenInvoices.dtsx</Name>
+      <FullPath>Redundant_10_Load_StgAX_tmpl_APOpenInvoices.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Redundant_11_Load_StgAX_tmpl_AROpenInvoices.dtsx</Name>
+      <FullPath>Redundant_11_Load_StgAX_tmpl_AROpenInvoices.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Redundant_14_Load_AX_tmpl_AROpenInvoices.dtsx</Name>
+      <FullPath>Redundant_14_Load_AX_tmpl_AROpenInvoices.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>SSISTemplate.dtsx</Name>
+      <FullPath>SSISTemplate.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>SubProjectLoadStg_and_final.dtsx</Name>
+      <FullPath>SubProjectLoadStg_and_final.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Bau_ConfigDataLoad.dtsx</Name>
+      <FullPath>Bau_ConfigDataLoad.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ExternalSystemKeys.dtsx</Name>
+      <FullPath>ExternalSystemKeys.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ErrorFilesGeneration.dtsx</Name>
+      <FullPath>ErrorFilesGeneration.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>XrmStagingClientsUpdates.dtsx</Name>
+      <FullPath>XrmStagingClientsUpdates.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+  </DTSPackages>
+</Project>
